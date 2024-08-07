@@ -1,6 +1,7 @@
 import React from 'react'
-import Setupp from './tutorial/1-useState/setup/2-useState-basics'
+import Setupp from './tutorial/2-useEffect/setup/1-useEffect-basics'
 function App() {
+
   return (
     <div className='container'>
       <Setupp />
