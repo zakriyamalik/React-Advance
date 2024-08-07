@@ -10,7 +10,9 @@ const UseEffectBasics = () => {
       document.title = `New Messages(${value})`;
     }
   
-  });
+  },[value]);
+
+  
 
   return <>
   <h1>
