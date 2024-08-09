@@ -4,7 +4,7 @@ import { useFetch } from '../../9-custom-hooks/final/2-useFetch'
 
 // ATTENTION!!!!!!!!!!
 // I SWITCHED TO PERMANENT DOMAIN
-const url = 'https://course-api.com/react-prop-types-example'
+const url = 'https://api.github.com/users'
 
 const Index = () => {
   const { products } = useFetch(url)
