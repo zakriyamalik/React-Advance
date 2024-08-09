@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types'
+
 import defaultImage from '../../../assets/default-image.jpeg'
 const Product = ({id, login, avatar_url, html_url}) => {
  
